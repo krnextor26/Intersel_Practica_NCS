@@ -1,0 +1,128 @@
+﻿body
+{
+   /*background-image:url(../images/backback-01.jpg);
+	background-attachment: fixed;*/
+	font-size: 11px;
+	font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+	padding:0;
+	margin:0;
+}
+
+.auto-style1 {
+            left: 0px;
+            top: 0px;
+        }
+
+#imgFondo
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-100;
+}
+	
+#main
+{
+	position:relative;
+	width:1024px;
+	background-position:center;
+	margin:auto;
+	font-size:12px;
+	min-height:600px;
+    /*height: 151px;*/
+}
+
+#cabecera
+{
+    background-position:center;
+	/*background-image:url(../images/back-01.png);*/
+	background-repeat:no-repeat;
+	background-position:top;
+	position:absolute;
+	height:200px;
+	width:1024px;
+}
+
+#lblUser
+{
+    position:absolute;
+	height:50px;
+	width:40%;
+	vertical-align:middle;
+    top: 55px;
+    left: 800px;
+    color:white;
+    /*background-color:thistle*/
+}
+
+#lbNameUser{
+ font-size:11px;
+ color:white;
+}
+
+#menu{
+	position:absolute;
+	text-align:center;
+	height:35px;
+	width:960px;
+	background-color:transparent;
+	top: 100px;
+	left: 0px;
+	}
+	
+#menu li{
+	text-decoration:none;
+	display:inline-block;
+	}
+	
+#menu a{
+		color:#fff;
+		text-decoration:none;
+		margin-left:10px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		font-stretch:semi-condensed;
+		}
+
+	
+#contenido
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /*background-position:center;*/
+	/*background-color:#e8e8e8;*/
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	/*box-shadow: 0px 0px 0px 0px;*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color='#000')";
+	filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color='#000')";
+	
+	position:fixed;
+    left:1%;
+	top:25%;
+	width: 1400px;
+	min-height:500px;
+    background-color:transparent;
+	/*display:block;*/
+    /*background-color:lightgray;*/
+
+}
+
+
+
+.footer
+{   
+    background: transparent;
+    font-size:9px;
+    text-align:center;
+    padding-bottom:0.1%;
+    color:white;
+    width:100%;
+	height:3%;
+    position:fixed;
+    bottom:0;
+    z-index:1;/* Depende el valor segun las capas flotantes que tengas */
+    left:0%; /* Depende el Ancho de donde se va a colocar */
+}
+

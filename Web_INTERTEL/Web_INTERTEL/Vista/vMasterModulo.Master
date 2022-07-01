@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="vMasterModulo.master.cs" Inherits="Web_INTERTEL.Vista.vMasterModulo" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Carga de archivos</title>
+
+    <link href="../Css/Carga.css" rel="stylesheet" />
+    <link href="../Content/BOOTSTRAP/css/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/Sweetalert/dist/sweetalert.css" rel="stylesheet" />
+    <script src="../Content/BOOTSTRAP/js/jquery.js"></script>
+    <script src="../Content/Sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../Scripts/aboutus.js"></script>
+    <link href="../Content/dataTables.css" rel="stylesheet" />
+    <script src="../Scripts/dataTables.js"></script>
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+     <!--FONDO-->
+    <img alt="" runat="server" id="imgFondo" src="~/imagenes/fondo.png"/>
+
+    <form id="form1" runat="server">
+    <div id="main">
+    <div id="cabecera" class="auto-style1">
+
+        <div id = "lblUser">
+        <table style="table-layout:fixed; width:360px">
+            <tr>
+                <td style="width:25px; text-align:left">
+                        <img id="logoUser" alt="" runat="server" src="~/imagenes/btn_user.png"/>                        
+                </td>
+                <td style="width:300px">
+                    <asp:Label runat="server" ID="lbNameUser" text="Usuario Administrador Admin"></asp:Label>    
+                </td>                   
+                <td style="text-align:center; width:35px" >
+                    <asp:ImageButton ID="imgSalir" runat="server" ImageUrl="~/imagenes/btn_salir.png" onclick="imgSalir_Click" />
+                </td>
+            </tr>
+        </table>
+        </div>
+
+        <div id = "menu">
+        <table style="table-layout:fixed; width:300px"">
+            <tr>
+                <td>
+                    <asp:Button ID="btnConsulta" runat="server" Text="Consultas" CssClass="btn btn-success btn-sm" OnClick="btnConsulta_Click"/>
+                </td>
+                <td>
+                    <asp:Button ID="btnCarga" runat="server" Text="Carga" CssClass="btn btn-success btn-sm" OnClick="btnCarga_Click"/>
+                </td>
+                <td>
+                    <asp:Button ID="btnUsuarios" runat="server" Text="Usuarios" CssClass="btn btn-success btn-sm" OnClick="btnUusarios_Click"/>
+                </td>
+            </tr>
+        </table>
+        </div>
+
+    </div>
+
+    <div id="contenido">
+        <asp:ContentPlaceHolder ID="cphContenido" runat="server">
+        </asp:ContentPlaceHolder>
+        <br />
+        <asp:ContentPlaceHolder ID="cont" runat="server">
+        <asp:HiddenField runat="server" ID="herrores" />
+        </asp:ContentPlaceHolder>
+    </div>
+    </div>
+    </form>
+    
+    <!--PIE DE PÁGINA-->
+    <div class="footer">
+           <p/>V1.0.0<p/>
+    </div>
+  
+</body>
+</html>
+

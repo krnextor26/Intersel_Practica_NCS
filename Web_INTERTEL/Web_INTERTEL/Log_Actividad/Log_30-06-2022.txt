@@ -1,0 +1,10 @@
+Fecha: 30/06/2022 18:42:24, Nombre Archivo: LineasCelulares.xlsx, Mensaje: Archivo Procesado Correctamente. Se registraron 251 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 18:55:20, Nombre Archivo: LineasCelulares.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 250 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 19:05:27, Nombre Archivo: LineasCelulares.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 250 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 19:33:59, Nombre Archivo: Detalle de llamadas.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 22915 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 19:38:44, Nombre Archivo: Detalle de llamadas.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 22915 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 19:40:17, Nombre Archivo: Detalle de llamadas.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 22915 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 19:41:15, Nombre Archivo: Detalle de llamadas.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 22915 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 20:33:40, Nombre Archivo: LineasCelulares.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 250 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 20:37:41, Nombre Archivo: LineasCelulares.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 250 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema
+Fecha: 30/06/2022 20:38:00, Nombre Archivo: Detalle de llamadas.csv, Mensaje: Archivo Procesado Correctamente. Se registraron 22915 Registro(s), Id Usuario: 1, Usuario: Administrador del sistema

@@ -1,0 +1,164 @@
+﻿ body {
+            /*background-image:url(../images/login/fnd_login.jpg);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size:cover;
+            background-attachment: fixed;*/
+            font-size: 14px;
+        }
+
+        #imgFondoLogin
+        {
+           position: absolute;
+           width:100%;
+           height:100%;
+           z-index:-100;
+           top: 0;
+           left: 0;
+               
+        }
+
+        #plecaLogin{
+            /*background-image:url(../images/login/ple_login.png);*/
+            /*background-repeat: no-repeat;
+            background-position: top;
+            background-size:contain;
+            background-attachment: initial;*/
+            position:absolute;
+            height: 20%;
+            width: 10%;
+            top: 25%;
+            left:45%;
+            /*background-color:aqua;*/
+        }
+        /*.centrarLogin {
+            margin: 150px auto;
+        }
+        .centrar {
+            text-align: center;
+        }*/
+
+
+        #content {
+            position: absolute;
+            /*background-color: aqua;*/
+            width: 25%;
+            height: 55%;
+            left: 66%;
+            top: 24%;
+            z-index:-50;
+        }
+
+        .txtControl {
+            /*position: static;*/
+            /*background-color: #71E2FD;*/
+            /*width: 60%;
+            height: 28px;
+            left: 229%;
+            top: 15%;*/
+            /*border: 0;*/
+            z-index: 10;
+            font-size: 100%;
+            /*vertical-align: bottom;*/
+            border-radius:2px;
+        }
+
+        input[placeholder], [placeholder], *[placeholder] {
+           color: #003D92 !important;
+       }
+
+        #icoUser
+        {
+            position:absolute;
+            width:2%;
+            height:30px;
+            left:40%;
+            top:50%;
+            color:#072146;
+            /*background-color:#003D92;*/
+            text-align:center;
+            padding-top: 5px;
+            font-size:20px;
+        }
+
+        #icoPass {
+            position: absolute;
+            width:2%;
+            height:30px;
+            left:40%;
+            top:55.5%;
+            color:#072146;
+            /*background-color: #003D92;*/
+            text-align:center;
+            padding-top:5px;
+            font-size:20px;
+        }
+
+        #User{
+            position: absolute;
+            width: 15%;
+            height: 30px;
+            left: 43%;
+            top: 50%;
+        }
+
+        #Pass{
+            position: absolute;
+            width: 15%;
+            height: 30px;
+            left: 43%;
+            top: 55.5%;
+        }
+
+        #btnEntrar {
+            position:absolute;
+            left:51%;
+            top:62%;
+            border:0;
+            z-index:10;
+            font-size:14px;
+            color:white;
+            font-weight:500;
+            background-color:#072146;
+            Width:7%;
+            Height:4%;
+            border-radius:5px;
+           }
+
+        #btnLimpiar{
+            position: absolute;
+            left:43%;
+            top:62%;
+            border:0;
+            z-index:10;
+            font-size:14px;
+            color:white;
+            font-weight:500;
+            background-color:#072146;
+            Width:7%;
+            Height:4%;
+            border-radius:5px;
+        }
+
+        /*#pieLogin {
+            position:absolute;
+            left:68%;
+            top:96%;
+            text-align: center;
+        }*/
+
+        .footer
+        {   
+            background: none;
+            font-size:12px;
+            font-weight:600;
+            text-align:center;
+            color:white;
+            width:100%;
+	        /*height:3%;*/
+            position:fixed;
+            bottom:0;
+            z-index:1;/* Depende el valor segun las capas flotantes que tengas */
+            left:0; /* Depende el Ancho de donde se va a colocar */
+            padding-top:0.3em;
+       }
